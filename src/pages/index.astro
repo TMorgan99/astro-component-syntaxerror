@@ -1,7 +1,11 @@
 ---
-import Base from "./components/Base.astro";
+import Thing from "../components/Thing.astro";
+// Remove Base to fix the error
+import Base from "../components/Base.astro";
 ---
 
+<Thing />
+<!-- Remove Base to fix the error -->
 <Base>
 	<h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
 </Base>
